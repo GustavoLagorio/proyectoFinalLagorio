@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Letizir</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" type="image/x-icon" href="./assets/logo3.ico">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- Fuentes -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <a class="nav_logo" href="index.html">
+                <img class="logo" src="./assets/logo2.png" alt="Logo" />
+            </a>
+            <div class="nav_buttons">
+                <button class="nav_buttons_carrito" id="btn_carrito">
+                    <img src="https://img.icons8.com/sf-ultralight/25/000000/shopping-cart.png" alt="shopping-cart" />
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main class="tienda">
+        <h1>Pedidos en la Pasteleria</h1>
+        <p>Bienvenidos a la sección de pedidos de la pastelería Letizir. Podes elegir entre las distintas variedades de
+            productos disponibles y acumularlos en el carrito de compras para luego abonar tu pedido.
+        </p>
+        <div class="comprar_producto" id="comprar_producto"></div>
+        <div class="carrito" id="carrito">
+            <h2>Carrito</h2>
+            <div class="carrito_lista row"></div>
+            <div class="carrito_formulario" id="carrito_formulario"></div>
+        </div>
+        </div>
+        <h2>Productos</h2>
+        <div class="row" id="lista_productos">
+        </div>
+    </main>
+    <!-- Sweetalert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- Mi codigo -->
+    <script defer src="./script2.js"></script>
+</body>
+
+</html>

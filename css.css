@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #fad0d1;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: bold !important;
+}
+
+.nav {
+    height: 10vh;
+    width: 100%;
+    padding: 0 2em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;    
+    position: fixed;
+    z-index: +1;
+    background-color: #f7a5a6;
+}
+.nav a {
+    height: 100%;
+    margin-left: 1em;    
+}
+
+.nav a img {
+    height: 10vh;;
+    object-fit: cover;
+    object-position: center center;
+    background-color: #f7a5a6;
+}
+
+.nav_buttons button, .nav_buttons button img {
+    background-color: #f7a5a6;
+}
+
+main {
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    padding-top: 3.5em;    
+}
+
+main h1 {
+    margin-bottom: 1em;
+}
+
+main h2 {
+    margin: 1em 0;
+}
+
+#lista_productos {
+    width: 100vw;
+    margin: 0;    
+}
+.tarjeta {
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: hidden;
+    align-content: center;
+    height: 80vh;
+    max-height: 500px;    
+    align-items: center;
+}
+
+.tarjeta img {
+    width: 80%;
+    height: 50%;    
+    max-height: 250px;
+    object-fit: cover;
+    object-position: center center;
+}
+.tarjeta h3 {
+    height: 30%;
+    max-height: 100px;
+    padding-top: 1em;
+}
+
+.comprar_producto {
+    display: none;
+    text-align: center;
+    width: 70%;
+    margin: 0% 15%;
+    padding: 2% 0;
+    position: fixed;
+    background-color: #9D568A;
+    top: 20vh;    
+}
+.comprar_producto h2, .comprar_producto h3, .comprar_producto label, .comprar_producto form {
+    background-color: #9D568A;
+}
+
+.comprar_producto img {    
+    max-height: 30vh;
+    margin: 0 5%;
+    object-fit: cover;
+    object-position: center center;
+}
+.comprar_producto.activo {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.comprar_producto form #cantidad {
+    width: 40%;
+    background-color: aliceblue;
+}
+
+.carrito {
+    display: none;
+    text-align: center;
+    width: 100vw;       
+    z-index: +2;
+    position: fixed;    
+    top: 20vh;
+    padding: 1em 0.5em;
+}
+
+.carrito.activo {
+    display: block;
+}
+
+.carrito, .carrito h2, .carrito_formulario, .carrito_lista, .item,
+.carrito_formulario p, .carrito_formulario form, span{
+    background-color: #9D568A;
+}
+
+.item {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0 1em;
+    align-items: center;    
+}
+
+.carrito_producto, .carrito_subtotal {
+    width: 35%;
+}
+
+.carrito_cantidad, .carrito_borrar {
+    width: 15%;
+}
+
+.carrito_formulario p {
+    margin-top: 1em;
+}
+
+#nombre_cliente, #email_cliente {
+    background-color: aliceblue;
+    margin: 2%;
+}
+
+.swal2-popup, .swal2-icon, .swal2-icon-content, .swal2-title,
+.swal2-html-container, .swal2-actions {
+    background-color: #9D568A;
+    color: black;
+}
+.swal2-icon-content {
+    height: 70%;
+    margin-top: 10%;
+    rotate: -5deg;
+}

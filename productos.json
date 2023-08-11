@@ -1,0 +1,57 @@
+[
+    {
+        "nombre": "Torta Chocotorta",
+        "precio": 1500,
+        "imagen": "./assets/torta-chocotorta.jpg"
+    },
+    {
+        "nombre": "Torta Cheesecake",
+        "precio": 1700,
+        "imagen": "./assets/torta-cheesecake.jpg"
+    },
+    {
+        "nombre": "Torta Red Velvet",
+        "precio": 1650,
+        "imagen": "./assets/torta-redvelvet.jpg"
+    },
+    {
+        "nombre": "Torta Patagonica",
+        "precio": 1900,
+        "imagen": "./assets/torta-patagonia.jpeg"
+    },
+    {
+        "nombre": "Budín de Chocolate",
+        "precio": 900,
+        "imagen": "./assets/budin-chocolate.jpg"
+    },
+    {
+        "nombre": "Budín de Vainilla",
+        "precio": 800,
+        "imagen": "./assets/budin-vainilla.jpg"
+    },
+    {
+        "nombre": "Budín Marmolado",
+        "precio": 1100,
+        "imagen": "./assets/budin-marmolado.jpg"
+    },
+    {
+        "nombre": "Cupcake Oreo",
+        "precio": 400,
+        "imagen": "./assets/cupcake-oreo.jpg"
+    },
+    {
+        "nombre": "Cupcake Cafe",
+        "precio": 450,
+        "imagen": "./assets/cupcake-cafe.jpg"
+    },
+    {
+        "nombre": "Cupcake Red Velvet",
+        "precio": 350,
+        "imagen": "./assets/cupcake-redvelvet.jpg"
+    },
+    {
+        "nombre": "Cupcake Nutella",
+        "precio": 550,
+        "imagen": "./assets/cupcake-nutella.jpg"
+    }
+]

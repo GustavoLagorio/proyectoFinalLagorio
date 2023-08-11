@@ -1,0 +1,3 @@
+Pasteleria Letizir
+
+Se trata de un simulador de compras online. La tienda cuenta con una lista de tortas, budines y cupcakes. El ususario puede seleccionar productos e indicar que cantidad desea de cada uno. Esto se guarda en un carrito. Si el usuario quiere confirmar la compra debera cargar los datos en un formulario y al enviar el pedido se genera de forma automatica un mensaje por Whatsapp. Tambien si ya hizo un pedido en el dispositivo se guardo en el LocalStorage para utilizarlo en el caso de que quiera repetir el pedido.
